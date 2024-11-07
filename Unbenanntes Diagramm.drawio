@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.1 Safari/605.1.15" version="24.8.4">
   <diagram name="Seite-1" id="VtHPXFdqPIJIqTUIkk0L">
-    <mxGraphModel dx="1714" dy="1273" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1495" dy="1128" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -8,7 +8,52 @@
           <mxGeometry x="-240" y="-80" width="920" height="640" as="geometry" />
         </mxCell>
         <mxCell id="w_glE12Yro4QOQslJgLK-2" value="Terminplan" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="-160" y="-40" width="160" height="110" as="geometry" />
+          <mxGeometry x="-160" y="-40" width="110" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="w_glE12Yro4QOQslJgLK-4" value="Arzthelfer" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-390" y="30" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="w_glE12Yro4QOQslJgLK-6" value="Terminbuchung" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="-40" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="w_glE12Yro4QOQslJgLK-7" value="Terminerinnerung" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-160" y="100" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="w_glE12Yro4QOQslJgLK-8" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="-350" y="330" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="w_glE12Yro4QOQslJgLK-11" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="-370" y="-50" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="w_glE12Yro4QOQslJgLK-12" value="Patient" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-365" y="410" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="w_glE12Yro4QOQslJgLK-13" value="Terminstornieren" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-165" y="330" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="w_glE12Yro4QOQslJgLK-14" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="765" y="-40" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="w_glE12Yro4QOQslJgLK-15" value="Arzt" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="760" y="40" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="w_glE12Yro4QOQslJgLK-16" value="Patienten anlegen" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="-40" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="w_glE12Yro4QOQslJgLK-18" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="w_glE12Yro4QOQslJgLK-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="615" y="36.88524590163934" as="sourcePoint" />
+            <mxPoint x="765" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w_glE12Yro4QOQslJgLK-19" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-354.02" y="-10.290591118517746" as="sourcePoint" />
+            <mxPoint x="-160" y="-11" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w_glE12Yro4QOQslJgLK-20" value="bekannte Allergien eintragen" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="110" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
